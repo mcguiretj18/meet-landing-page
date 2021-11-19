@@ -293,6 +293,8 @@ h1 {
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 700;
     font-style: normal;
+    cursor: pointer;
+    outline: none;
 }
 
 .btn-padding-alt {
@@ -301,6 +303,15 @@ h1 {
 
 .btn-primary {
     background-color: var(--clr-primary-400);
+}
+
+.btn-primary:focus,
+.btn-primary:hover {
+    background-color: var(--clr-primary-800);
+}
+
+.btn-primary:focus {
+    outline: 3px dotted var(--clr-primary-400); 
 }
 
 @media(min-width: 48em) {
@@ -313,12 +324,31 @@ h1 {
     color: var(--clr-primary-800);
 }
 
+.btn-primary:focus span,
+.btn-primary:hover span {
+    color: var(--clr-primary-400);
+}
+
 .btn-secondary {
     background-color: var(--clr-secondary-400);
 }
 
+.btn-secondary:focus,
+.btn-secondary:hover {
+    background-color: var(--clr-secondary-800);
+}
+
 .btn-secondary span {
     color: var(--clr-secondary-800);
+}
+
+.btn-secondary:focus span,
+.btn-secondary:hover span {
+    color: var(--clr-secondary-400);
+}
+
+.btn-secondary:focus {
+    outline: 3px dotted var(--clr-secondary-400); 
 }
 
 .mb-1 {
