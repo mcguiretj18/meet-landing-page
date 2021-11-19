@@ -74,6 +74,12 @@ h1 {
     padding-bottom: 54px;
 }
 
+@media (min-width: 1440px) {
+    .logo-box {
+        padding-top: 80px;
+    }
+}
+
 .btn-box {
     width: 67%;
     margin: 0 auto;
