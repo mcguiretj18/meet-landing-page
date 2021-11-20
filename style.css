@@ -77,20 +77,26 @@ h1 {
 @media (min-width: 1440px) {
     .logo-box {
         padding-top: 80px;
-        padding-bottom: 108px;
+        padding-bottom: 104px;
     }
 }
 
 .btn-box {
     width: 67%;
     margin: 0 auto;
-    margin-top: 32px;
+    margin-top: 30px;
     text-align: center;
 }
 
 .number-display-box {
     width: 56px;
     margin: 64px auto;
+}
+
+@media (min-width: 1440px) {
+    .number-1-box {
+        margin-top: 110px 
+    }
 }
 
 .photo-grid {
@@ -232,7 +238,7 @@ h1 {
     font-style: normal;
     font-size: 64px;
     text-align: center;
-    margin: 0 auto 34px auto;
+    margin: 0 auto 32px auto;
 }
 
 .headline--desktop p {
