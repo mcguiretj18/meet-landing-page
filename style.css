@@ -4,8 +4,6 @@
 ==================
 */
 
-/* TODO: Clean up stylesheet */
-
 :root {
     --clr-primary-400: hsl(192, 37%, 48%);
     --clr-primary-800: hsl(192, 90%, 77%);
@@ -126,7 +124,6 @@ h1 {
 }
 
 .content-box {
-    /* background: purple; */
     margin: 0 24px 64px 24px;
 }
 
